@@ -15,3 +15,20 @@ function checkDigitsInName(name) {
 }
 
 console.log(checkDigitsInName('1Rds12'));
+
+
+//solution-2
+function checkDigitsInName(name) {
+    if (typeof name === 'string') {
+        let nameArray = name.split('');
+        for (let i = 0; i < nameArray.length; i++) { 
+            if (isNaN(nameArray[i]) === false) {
+                return true;
+            } 
+        }
+        return false;
+    } else {
+        return "Invalid Input";
+    }
+}
+console.log(checkDigitsInName('Rds'));

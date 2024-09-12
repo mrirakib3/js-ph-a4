@@ -17,7 +17,6 @@ function calculateTax(income, expenses) {
     } else {
         return "Invalid Input";
     }
-
 }
 
 console.log(calculateTax(6000, 1500));

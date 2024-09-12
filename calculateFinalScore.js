@@ -12,8 +12,6 @@ function calculateFinalScore(obj) {
         } else {
             return false;
         }
-        
-
     } else {
         return "Invalid Input";
     }
