@@ -14,11 +14,11 @@ function calculateTax(income, expenses) {
     if (income >= expenses){
         vat = (income - expenses) * 0.2;
         return vat;
-    } else{
+    } else {
         return "Invalid Input";
     }
 
 }
 
-console.log(calculateTax(600, -1500));
+console.log(calculateTax(6000, 1500));
 
